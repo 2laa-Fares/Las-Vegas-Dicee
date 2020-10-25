@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  Las Vegas Dicee
 //
-//  Created by Abdullah elotabi on 10/23/20.
+//  Created by 2laa Ewis on 10/23/20.
 //
 
 import UIKit
