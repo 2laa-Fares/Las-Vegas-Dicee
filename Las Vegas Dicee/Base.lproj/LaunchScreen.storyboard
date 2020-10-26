@@ -16,17 +16,23 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="newbackground" translatesAutoresizingMaskIntoConstraints="NO" id="60w-od-Quo">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="newbackground" translatesAutoresizingMaskIntoConstraints="NO" id="60w-od-Quo">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="diceeLogo" translatesAutoresizingMaskIntoConstraints="NO" id="AT5-RE-7tW">
-                                <rect key="frame" x="87" y="376" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="diceeLogo" translatesAutoresizingMaskIntoConstraints="NO" id="AT5-RE-7tW">
+                                <rect key="frame" x="109" y="384" width="196" height="128"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="60w-od-Quo" secondAttribute="trailing" id="3tE-2r-LPZ"/>
+                            <constraint firstItem="AT5-RE-7tW" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="5Ld-Jg-vCy"/>
+                            <constraint firstAttribute="bottom" secondItem="60w-od-Quo" secondAttribute="bottom" id="VgH-VF-fPs"/>
+                            <constraint firstItem="60w-od-Quo" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="gBW-o3-4TS"/>
+                            <constraint firstItem="60w-od-Quo" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="lgv-xW-sHP"/>
+                            <constraint firstItem="AT5-RE-7tW" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="nY5-4m-3f1"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
